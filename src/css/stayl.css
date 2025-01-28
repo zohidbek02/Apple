@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.contener_img {
+  max-width: 1536;
+  margin: 0;
+  padding: 0;
+}
+
+.contener {
+  width: 1024px;
+  padding: 0px 20px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+}
+
+img {
+  display: inline-block;
+}
+
+.header-bg {
+  background: #161617;
+  padding: 20px 0px;
+}
+
+.header-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-link {
+  opacity: 0.6;
+  color: #fff;
+}
+
+.header-link:hover {
+  opacity: 1;
+}
+
+.apple-icon {
+  color: #fff;
+}
+
+.apple-icon:hover {
+  color: blue;
+  opacity: 1;
+}
+/* header end  */
+
+/* section1 start */
+
+.hero {
+  width: 1519px;
+  height: 717px;
+  background: url(../assets/img/Figure.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 10px;
+}
+
+.hser-box {
+  text-align: center;
+  padding: 55px 0px 10px 0px;
+}
+
+.hero-title {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.hero-text {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.hero-btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: 2px solid #0073e6;
+  border-radius: 20px;
+  background-color: transparent;
+  color: #0073e6;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-left: 10px;
+}
+
+.hero-btn{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #2997ff;
+}
+
+
+.hero-btn:hover {
+  background-color: #0073e6;
+  color: #fff;
+}
+/* section1 end */
+
+/* section2 start */
+
+.wrap{
+    width: 1519px;
+    height: 717px;
+    background: url(../assets/img/img2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 10px;
+}
+
+.wrap-btn{
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-left: 10px;
+
+}
+
+.wrap-btn{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+    text-align: center;
+}
+
+.wrap-btn:hover{
+    background: #fff;
+    color: black;
+}
+/* section2 end */
+
+/* section3  start*/
+
+.section3{
+    width: 1519px;
+    height: 717px;
+    background: url(../assets/img/img3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 10px;
+}
